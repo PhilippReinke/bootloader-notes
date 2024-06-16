@@ -1,0 +1,19 @@
+{
+    "diskguid": "00000000-0000-0000-0000-000000000000",
+    "disksize": 128,
+    "config": "boot/bootboot.config",
+    "initrd": {
+        "type": "cpio",
+        "gzip": true,
+        "directory": [
+            "boot/"
+        ]
+    },
+    "iso9660": 1,
+    "partitions": [
+        {
+            "type": "boot",
+            "size": 16
+        }
+    ]
+}
